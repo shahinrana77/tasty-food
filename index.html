@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="bg-white text-black">
+  <main class="py-2 pt-0">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg position-fixed bg-white mt-0" style="width: 100%;">
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand text-black fw-bold fs-4" href="#">TASTY</a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#app">App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black fw-semibold" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAV End -->
+
+    <!-- Hero Section Start -->
+    <div class="hero container mx-auto row pt-5" id="home">
+      <div class="hero-left col-lg-6 d-flex flex-column align-items-center align-items-lg-start justify-content-center">
+        <h1 class="text-success" style="font-size: 4rem;">Tasty Food</h1>
+        <h3 class="mb-3">Try the best food of the week</h3>
+        <div class="btn btn-success">View Now</div>
+      </div>
+      <div class="hero-right col-lg-6 d-flex flex-column align-items-lg-end justify-content-center">
+        <img class="img-fluid object-fit-contain" src="./img/home.png" alt="Food Image">
+      </div>
+      <div class="rating bg-success col-12 d-flex mx-auto align-items-center rounded row" style="min-height: 100px;">
+        <div class="col-4 text-center">
+          <h4 class="fs-6 m-0">Reviews</h4>
+          <p class="fs-4 m-0 fw-bold text-white" id="review">0</p>
+        </div>
+        <div class="col-4 text-center">
+          <h4 class="fs-6 m-0">Customers</h4>
+          <p class="fs-4 m-0 fw-bold text-white" id="customers">0</p>
+        </div>
+        <div class="col-4 text-center">
+          <h4 class="fs-6 m-0">Menu Items</h4>
+          <p class="fs-4 m-0 fw-bold text-white" id="items">0</p>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- section 2 start -->
+    <div class="container row mx-auto p-lg-5" id="about">
+      <div class="page-1-left rounded justify-content-center align-items-center d-flex col-lg-6">
+        <img class="img-fluid object-fit-contain rounded" src="./img/about.jpg" alt="">
+      </div>
+      <div class="page-1-right col-lg-6 justify-content-center align-items-start d-flex flex-column">
+        <p>About Us</p>
+        <h2 class="fw-bold">We cook the best<br/>tasty food</h2>
+        <p>We cook the tasty food in the entire city, with excelient customer service, the best meals at the best prices, visit us.</p>
+        <div class="btn btn-success">Explore histroy</div>
+      </div>
+    </div>
+    <!-- section 2 end -->
+
+    <!-- offering section start -->
+    <div class="container mx-auto py-5 py-lg-0" id="menu">
+      <div class="offering text-center">
+        <p class="mb-0">offering</p>
+        <h3 class="fs-4">Our amazing services</h3>
+      </div>
+      <div class="services d-flex align-items-center justify-content-around flex-wrap gap-3 py-3">
+        <div class="card-container shadow-lg rounded p-2" style="width: 15rem;">
+          <div class="card-img d-flex align-items-center justify-content-center">
+            <img src="./img/plate1.png" class="img-fluid object-fit-contain" alt="">
+          </div>
+          <div class="card-info mt-4">
+            <h1 class="fs-5 m-0">Salad with fish</h1>
+            <p class="m-0">Delicias recipe</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold">$29.00</span>
+              <div class="btn btn-success">Add</div>
+            </div>
+          </div>
+        </div>
+        <div class="card-container shadow-lg rounded p-2" style="width: 15rem;">
+          <div class="card-img d-flex align-items-center justify-content-center">
+            <img src="./img/plate3.png" class="img-fluid object-fit-contain" alt="">
+          </div>
+          <div class="card-info mt-4">
+            <h1 class="fs-5 m-0">Spanish Salad</h1>
+            <p class="m-0">Delicias recipe</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold">$29.00</span>
+              <div class="btn btn-success">Add</div>
+            </div>
+          </div>
+        </div>
+        <div class="card-container shadow-lg rounded p-2" style="width: 15rem;">
+          <div class="card-img d-flex align-items-center justify-content-center">
+            <img src="./img/plate2.png" class="img-fluid object-fit-contain" alt="">
+          </div>
+          <div class="card-info mt-4">
+            <h1 class="fs-5 m-0">Salad with fish</h1>
+            <p class="m-0">Delicias recipe</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold">$29.00</span>
+              <div class="btn btn-success">Add</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- offering section end -->
+
+    <!-- App Section start -->
+    <div class="app-section container mx-auto py-3 row" id="app">
+      <div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
+        <img class="img-fluid object-fit-contain m-0" style="height: 80%; width: 80%;" src="./img/movil-app.png" alt="">
+      </div>
+      <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start">
+        <p class="m-0">App</p>
+        <h3 class="fs-1">App is availabel</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quia est exercitationem laborum placeat maiores.</p>
+        <div class="row">
+          <div class="col-6 row">
+            <div class="col-6">
+              <img src="./img/app1.png" style="width: 100%;" alt="">
+            </div>
+            <div class="col-6">
+              <img style="width: 100%;" src="./img/app2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- App Section end -->
+
+    <!-- Contact us form -->
+    
+  </main>
+  
+  <!-- bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

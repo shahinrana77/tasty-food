@@ -1,0 +1,13 @@
+.nav-item a{
+  transition: all ease-in-out .3s;
+}
+.nav-item a:hover{
+  color: yellowgreen !important;
+  transform: translateY(-5px);
+}
+.hero-right .img-fluid{
+  height: 80%;
+}
+.page-1-left img{
+  height: 70%;
+}
